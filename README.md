@@ -2,6 +2,10 @@
 
 Este sistema gerencia tarefas de uma equipe.
 
+## Diagrama de Classes:
+
+![Diagrama de Classes Tarefas](https://github.com/user-attachments/assets/4b287b95-f99b-4ebe-ab0a-87d741299c32)
+
 ## Funcionalidades
 
 - Adicionar novas tarefas.
@@ -15,6 +19,10 @@ Este sistema gerencia tarefas de uma equipe.
 
 ## Como executar
 
-1. Compile o arquivo TypeScript:
+1. Compile os arquivos TypeScript:
    ```bash
-   tsc tarefas.ts
+   tsc tarefa.ts teste-tarefa.ts
+2. Execute apenas o arquivo de teste (teste-biblioteca.js) no Node.js:
+    ```bash
+   node teste-tarefa.js
+
